@@ -9,12 +9,12 @@
             <div class="col-lg-12">
                 <div class="links_slider owl-carousel">
                     <div class="item">
-
+<!--
                         <a href="https://www.police.gov.bd/">
                             <img src="{{asset('kmp')}}/images/links/01.png" alt="" />
 
-                        </a>
-
+                       </a>
+--> 
                     </div>
                     <!-- ts-grid-box end-->
 

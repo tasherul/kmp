@@ -402,7 +402,7 @@
 
 
 					<div class="col-lg-3">
-						<div class="ts-grid-box widgets">
+						<div class="ts-grid-box widgets" style="display:none;">
 							<h2 class="ts-title">Follow us</h2>
 							<ul class="ts-social-list">
 								<li class="ts-facebook">
