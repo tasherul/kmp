@@ -1,0 +1,1 @@
+[24-Feb-2020 15:18:00 America/Chicago] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Kernel' not found in /home/wwwkmppolicegov/public_html/app/Console/Kernel.php on line 9

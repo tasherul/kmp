@@ -1,0 +1,364 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <title>Dashboard | KMP</title>
+    <meta content="Responsive admin theme build on top of Bootstrap 4" name="description" />
+    <meta content="Themesdesign" name="author" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+	
+	<!-- Dropzone css -->
+     <link href="plugins/dropzone/dist/dropzone.css" rel="stylesheet" type="text/css">
+    <!--Morris Chart CSS -->
+    <link rel="stylesheet" href="plugins/morris/morris.css">
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/metismenu.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/icons.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <!-- Begin page -->
+    <div id="wrapper">
+
+        <!-- Top Bar Start -->
+        <div class="topbar">
+
+            <!-- LOGO -->
+            <div class="topbar-left">
+                <a href="index.html" class="logo">
+                    <span class="logo-light">
+                            <i class="mdi mdi-account-circle"></i> KMP | News
+                        </span>
+                    <span class="logo-sm">
+                            <i class="mdi mdi-camera-control"></i>
+                        </span>
+                </a>
+            </div>
+
+            <nav class="navbar-custom">
+                <ul class="navbar-right list-inline float-right mb-0">
+
+                    
+
+                    <!-- full screen -->
+                    <li class="dropdown notification-list list-inline-item d-none d-md-inline-block">
+                        <a class="nav-link waves-effect" href="#" id="btn-fullscreen">
+                            <i class="mdi mdi-arrow-expand-all noti-icon"></i>
+                        </a>
+                    </li>
+
+                    <!-- notification -->
+                    
+
+                    <li class="dropdown notification-list list-inline-item">
+                        <div class="dropdown notification-list nav-pro-img">
+                            <a class="dropdown-toggle nav-link arrow-none nav-user" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                <img src="assets/images/users/user-4.jpg" alt="user" class="rounded-circle">
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+                                <!-- item-->
+                                <a class="dropdown-item" href="author.html"><i class="mdi mdi-account-circle"></i> Profile</a>              
+                                
+                                <a class="dropdown-item text-danger" href="#"><i class="mdi mdi-power text-danger"></i> Logout</a>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <ul class="list-inline menu-left mb-0">
+                    <li class="float-left">
+                        <button class="button-menu-mobile open-left waves-effect">
+                            <i class="mdi mdi-menu"></i>
+                        </button>
+                    </li>
+                    
+                </ul>
+
+            </nav>
+
+        </div>
+        <!-- Top Bar End -->
+
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="left side-menu">
+            <div class="slimscroll-menu" id="remove-scroll">
+
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+                    <!-- Left Menu Start -->
+                    <ul class="metismenu" id="side-menu">
+                        <li class="menu-title">Menu</li>
+						<li>
+                            <a href="Dashboard.html" class="waves-effect">
+                                <i class="icon-accelerator"></i> <span> Dashboard </span>
+                            </a>
+                        </li>
+						<li>
+                            <a href="homepage.html" class="waves-effect"><i class="fas fa-home"></i><span> Home Page </span></a>
+                        </li>						
+						<li>
+                            <a href="slider.html" class="waves-effect"><i class="icon-graph"></i><span> Slider Area</span></a>
+                        </li>
+						
+						<li>
+                            <a href="news.html" class="waves-effect"><i class="fas fa-newspaper"></i><span> News</span></a>
+                        </li>
+						<li>
+                            <a href="notice.html" class="waves-effect"><i class="fas fa-bullhorn"></i><span> Notice </span></a>
+                        </li>				
+						<li>
+                            <a href="photo_gallery.html" class="waves-effect"><i class="far fa-images"></i><span> Photo Gallery </span></a>
+                        </li>
+						<li>
+                            <a href="video.html" class="waves-effect"><i class="fab fa-youtube"></i><span> Video Gallery </span></a>
+                        </li>
+						<li>
+                            <a href="wanted_missing.html" class="waves-effect"><i class="fas fa-users"></i><span> Wanted & Missing </span></a>
+                        </li>
+						<li>
+                            <a href="staff.html" class="waves-effect"><i class="fas fa-user-tag"></i><span> Staff </span></a>
+                        </li>
+						<li>
+                            <a href="range_unit.html" class="waves-effect"><i class="fas fa-exchange-alt"></i><span> Range Unit </span></a>
+                        </li>
+						<li>
+                            <a href="settings.html" class="waves-effect"><i class="fas fa-sliders-h"></i><span> Settings-1 </span></a>
+                        </li>
+						<li>
+                            <a href="settings-2.html" class="waves-effect"><i class="fas fa-sliders-h"></i><span> Settings-2 </span></a>
+                        </li>
+						<li>
+                            <a href="service.html" class="waves-effect"><i class="fas fa-check-square"></i><span> Service-1 </span></a>
+                        </li>
+						<li>
+                            <a href="service_2.html" class="waves-effect"><i class="fas fa-check-square"></i><span> Service-2 </span></a>
+                        </li>
+						<li>
+                            <a href="remember.html" class="waves-effect"><i class="fas fa-user"></i><span> Remember </span></a>
+                        </li>
+						<li>
+                            <a href="crime_management.html" class="waves-effect"><i class="fas fa-user-secret"></i><span>Crime Management</span></a>
+                        </li>
+						<li>
+                            <a href="contact.html" class="waves-effect"><i class="far fa-address-book"></i><span>Contact</span></a>
+                        </li>
+						<li>
+                            <a href="carrer.html" class="waves-effect"><i class="icon-graph"></i><span>Carrer</span></a>
+                        </li>
+						<li>
+                            <a href="ranks_acknowledge.html" class="waves-effect"><i class="icon-graph"></i><span>Ranks & Acknowledgement</span></a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Sidebar -->
+                <div class="clearfix"></div>
+
+            </div>
+            <!-- Sidebar -left -->
+
+        </div>
+        <!-- Left Sidebar End -->
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="content-page">
+            <!-- Start content -->
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="page-title-box">
+                        <div class="row align-items-center">
+                            <div class="col-sm-6">
+                                <h4 class="page-title">KMP News</h4>
+                            </div>
+                            <div class="col-sm-6">
+                                <ol class="breadcrumb float-right">
+                                    <li class="breadcrumb-item"><a href="javascript:void(0);">kmp</a></li>
+                                    <li class="breadcrumb-item active">news</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <!-- end row -->
+                    </div>
+                    <!-- end page-title -->
+
+                    <!-- Home Content Start -->
+					<div class="home_content">
+						<div class="row">
+							<div class="col-lg-5">
+								<!-- Emergency Area -->
+                                <div class="card m-b-30">
+                                    <div class="card-body">       
+                                        <h4 class="mt-0 header-title">Add News & Emergency News:</h4>
+                                        <p class="sub-title">This news are show on news feed and also emergency news feed</p>
+        
+                                        <form class="kmp_emergency" action="#">
+										
+                                            <div class="form-group">
+                                                <label>Add News Tittle:</label>
+                                                <input type="text" class="form-control" required placeholder="কেমপি অভিযান, মোট আটক ২৮ জন ও মাদকদ্রব্য উদ্ধার"/><br/>
+												<p class="sub-title">Upload news image.</p>
+        
+												<div class="m-b-30">
+													<div action="#" class="dropzone">
+														<div class="fallback">
+															<input name="file" type="file" multiple="multiple">
+														</div>
+													</div>
+												</div>
+												<label>News Description:</label>
+                                                <textarea id="textarea" class="form-control" rows="6" placeholder="Write news description here..."></textarea>
+                                            </div>       									 
+                                            <div class="form-group">
+                                                <div>
+                                                    <button type="submit" class="btn btn-primary waves-effect waves-light">
+                                                        Submit
+                                                    </button>
+                                                    <button type="reset" class="btn btn-secondary waves-effect m-l-5">
+                                                        Cancel
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+        
+                                    </div>
+                                </div>
+								
+                            </div>
+							<div class="col-lg-7">
+                                <div class="card m-b-30">
+                                    <div class="card-body">
+        
+                                         <h4 class="mt-0 header-title">Basic example</h4>
+                                        <p class="sub-title">
+										Contant Contant Contant Contant Contant Contant Contant Contant Contant 
+                                        </p>
+        
+                                        <div class="table-responsive">
+                                            <table class="table mb-0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>#</th>
+                                                        <th>Title</th>
+                                                        <th>Short Details</th>
+														<th>Date</th>
+                                                        <th>Action</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td class="text_property"> কেমপি অভিযান, মোট আটক ২৮ জন ও মাদকদ্রব্য উদ্ধার  </td>
+                                                        <td class="text_property">গত ২৪ ঘন্টায় (১২/১০/২০১৯ খ্রিঃ ০০.০০ ঘটিকা হতে ২৩.৫৯ ঘটিকা পর্যন্ত) খুলনা মেট্রোপলিটন পুলিশের অভিযানে মোট ৪৭ জনকে আটক করা হয়েছে। খুলনা মহানগরীর থানা ও ডিবি পুলিশ মহানগরীর বিভিন্নস্থানে অভিযান চালিয়ে বোয়ালিয়া মডেল থানা-০৮ জন, রাজপাড়া থানা-০৬ জন, চন্দ্রিমা থানা-০৬ জন, মতিহার থানা-০৬ জন, কাটাখালী থানা-০২, বেলপুকুর থানা-০১, শাহমখদুম থানা-০৫, এয়ারপোর্ট থানা-০৩, পবা থানা-০১, কাশিয়াডাঙ্গা থানা-০৬, দামকুড়া থানা-০১ জন ও ডিবি পুলিশ-০২ জনকে আটক করে। যার মধ্যে ১৩ জন ওয়ারেন্টভূক্ত আসামী, ১৪ জনকে মাদকদ্রব্যসহ ও অন্যান্য অপরাধে ২০ জনকে গ্রেফতার করা হয়েছে। বোয়ালিয়া মডেল থানা পুলিশ (১) মোঃ ফিরোজ হোসেন (১৯) কে ১০ গ্রাম হেরোইন সহ আটক করে, (২) মোঃ সাখাওয়ার হোসেন অসিম (২৯) কে ৩৫ গ্রাম হেরোইন সহ আটক করে। রাজপাড়া থানা পুলিশ (১) মোঃ বিপ্লব (১৯), (২) মোঃ ইয়ামিন হক (১৯) ও (৩) মোঃ শহিদ (২০) দেরকে ১০ পিচ ইয়াবা ট্যাবলেট ও ০৮ গ্রাম হেরোইন সহ আটক করে। মতিহার থানা পুলিশ (১) মোঃ সাইনুদ্দিন (৩৫) কে ২৬ গ্রাম হেরোইন সহ আটক করে। এয়ারপোর্ট থানা পুলিশ (১) মোঃ হাসিবুর রহমান (২৫) ও (২) মোঃ মাসুদ রানা (২০) দ্বয়কে ০৮ পিচ ইয়াবা ট্যাবলেট সহ আটক করে। পবা থানা পুলিশ (১) মোঃ দেলোয়ার হোসেন (৪০) কে ১২ পিচ ইয়াবা ট্যাবলেট সহ আটক করে। কাটাখালী থানা পুলিশ (১) মোঃ রমজান আলী(৪০) কে ০৫ গ্রাম হেরোইন সহ আটক করে, (২) মোঃ রফিক(৩০) কে ০৫.৫০ গ্রাম হেরোইন সহ আটক করে। কাশিয়াডাঙ্গা থানা পুলিশ (১) মোঃ আবু সালেহ লিটন (৩৫) ও (২) মোঃ জামিল হোসেন (২৯)দ্বয়কে ১০ গ্রাম হেরোইন ও ২৫ পিচ ইয়াবা ট্যাবলেট সহ আটক করে, (৩) মোঃ শ্যামল (৩৩) কে ১২ গ্রাম হেরোইন সহ আটক করে। আটককৃত ব্যক্তিদের বিরুদ্ধে আইনগত ব্যবস্থা নেয়া হয়েছে।</td>													
+														<td> 19 October 2019  </td>
+														
+                                                        <td>
+														<button class="btn btn-primary btn-sm waves-effect waves-light" type="submit">Edit</button>
+                                                        <input class="btn btn-danger btn-sm waves-effect waves-light" type="reset" value="Delete">												
+														</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">2</th>
+                                                        <td class="text_property"> কেমপি অভিযান, মোট আটক ২৮ জন ও মাদকদ্রব্য উদ্ধার  </td>
+                                                        <td class="text_property">গত ২৪ ঘন্টায় (১২/১০/২০১৯ খ্রিঃ ০০.০০ ঘটিকা হতে ২৩.৫৯ ঘটিকা পর্যন্ত) খুলনা মেট্রোপলিটন পুলিশের অভিযানে মোট ৪৭ জনকে আটক করা হয়েছে। খুলনা মহানগরীর থানা ও ডিবি পুলিশ মহানগরীর বিভিন্নস্থানে অভিযান চালিয়ে বোয়ালিয়া মডেল থানা-০৮ জন, রাজপাড়া থানা-০৬ জন, চন্দ্রিমা থানা-০৬ জন, মতিহার থানা-০৬ জন, কাটাখালী থানা-০২, বেলপুকুর থানা-০১, শাহমখদুম থানা-০৫, এয়ারপোর্ট থানা-০৩, পবা থানা-০১, কাশিয়াডাঙ্গা থানা-০৬, দামকুড়া থানা-০১ জন ও ডিবি পুলিশ-০২ জনকে আটক করে। যার মধ্যে ১৩ জন ওয়ারেন্টভূক্ত আসামী, ১৪ জনকে মাদকদ্রব্যসহ ও অন্যান্য অপরাধে ২০ জনকে গ্রেফতার করা হয়েছে। বোয়ালিয়া মডেল থানা পুলিশ (১) মোঃ ফিরোজ হোসেন (১৯) কে ১০ গ্রাম হেরোইন সহ আটক করে, (২) মোঃ সাখাওয়ার হোসেন অসিম (২৯) কে ৩৫ গ্রাম হেরোইন সহ আটক করে। রাজপাড়া থানা পুলিশ (১) মোঃ বিপ্লব (১৯), (২) মোঃ ইয়ামিন হক (১৯) ও (৩) মোঃ শহিদ (২০) দেরকে ১০ পিচ ইয়াবা ট্যাবলেট ও ০৮ গ্রাম হেরোইন সহ আটক করে। মতিহার থানা পুলিশ (১) মোঃ সাইনুদ্দিন (৩৫) কে ২৬ গ্রাম হেরোইন সহ আটক করে। এয়ারপোর্ট থানা পুলিশ (১) মোঃ হাসিবুর রহমান (২৫) ও (২) মোঃ মাসুদ রানা (২০) দ্বয়কে ০৮ পিচ ইয়াবা ট্যাবলেট সহ আটক করে। পবা থানা পুলিশ (১) মোঃ দেলোয়ার হোসেন (৪০) কে ১২ পিচ ইয়াবা ট্যাবলেট সহ আটক করে। কাটাখালী থানা পুলিশ (১) মোঃ রমজান আলী(৪০) কে ০৫ গ্রাম হেরোইন সহ আটক করে, (২) মোঃ রফিক(৩০) কে ০৫.৫০ গ্রাম হেরোইন সহ আটক করে। কাশিয়াডাঙ্গা থানা পুলিশ (১) মোঃ আবু সালেহ লিটন (৩৫) ও (২) মোঃ জামিল হোসেন (২৯)দ্বয়কে ১০ গ্রাম হেরোইন ও ২৫ পিচ ইয়াবা ট্যাবলেট সহ আটক করে, (৩) মোঃ শ্যামল (৩৩) কে ১২ গ্রাম হেরোইন সহ আটক করে। আটককৃত ব্যক্তিদের বিরুদ্ধে আইনগত ব্যবস্থা নেয়া হয়েছে।</td>
+														<td> 19 October 2019  </td>
+														
+                                                        <td>
+														<button class="btn btn-primary btn-sm waves-effect waves-light" type="submit">Edit</button>
+                                                        <input class="btn btn-danger btn-sm waves-effect waves-light" type="reset" value="Delete">																
+														</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">3</th>
+                                                        <td class="text_property"> কেমপি অভিযান, মোট আটক ২৮ জন ও মাদকদ্রব্য উদ্ধার  </td>
+                                                        <td class="text_property">গত ২৪ ঘন্টায় (১২/১০/২০১৯ খ্রিঃ ০০.০০ ঘটিকা হতে ২৩.৫৯ ঘটিকা পর্যন্ত) খুলনা মেট্রোপলিটন পুলিশের অভিযানে মোট ৪৭ জনকে আটক করা হয়েছে। খুলনা মহানগরীর থানা ও ডিবি পুলিশ মহানগরীর বিভিন্নস্থানে অভিযান চালিয়ে বোয়ালিয়া মডেল থানা-০৮ জন, রাজপাড়া থানা-০৬ জন, চন্দ্রিমা থানা-০৬ জন, মতিহার থানা-০৬ জন, কাটাখালী থানা-০২, বেলপুকুর থানা-০১, শাহমখদুম থানা-০৫, এয়ারপোর্ট থানা-০৩, পবা থানা-০১, কাশিয়াডাঙ্গা থানা-০৬, দামকুড়া থানা-০১ জন ও ডিবি পুলিশ-০২ জনকে আটক করে। যার মধ্যে ১৩ জন ওয়ারেন্টভূক্ত আসামী, ১৪ জনকে মাদকদ্রব্যসহ ও অন্যান্য অপরাধে ২০ জনকে গ্রেফতার করা হয়েছে। বোয়ালিয়া মডেল থানা পুলিশ (১) মোঃ ফিরোজ হোসেন (১৯) কে ১০ গ্রাম হেরোইন সহ আটক করে, (২) মোঃ সাখাওয়ার হোসেন অসিম (২৯) কে ৩৫ গ্রাম হেরোইন সহ আটক করে। রাজপাড়া থানা পুলিশ (১) মোঃ বিপ্লব (১৯), (২) মোঃ ইয়ামিন হক (১৯) ও (৩) মোঃ শহিদ (২০) দেরকে ১০ পিচ ইয়াবা ট্যাবলেট ও ০৮ গ্রাম হেরোইন সহ আটক করে। মতিহার থানা পুলিশ (১) মোঃ সাইনুদ্দিন (৩৫) কে ২৬ গ্রাম হেরোইন সহ আটক করে। এয়ারপোর্ট থানা পুলিশ (১) মোঃ হাসিবুর রহমান (২৫) ও (২) মোঃ মাসুদ রানা (২০) দ্বয়কে ০৮ পিচ ইয়াবা ট্যাবলেট সহ আটক করে। পবা থানা পুলিশ (১) মোঃ দেলোয়ার হোসেন (৪০) কে ১২ পিচ ইয়াবা ট্যাবলেট সহ আটক করে। কাটাখালী থানা পুলিশ (১) মোঃ রমজান আলী(৪০) কে ০৫ গ্রাম হেরোইন সহ আটক করে, (২) মোঃ রফিক(৩০) কে ০৫.৫০ গ্রাম হেরোইন সহ আটক করে। কাশিয়াডাঙ্গা থানা পুলিশ (১) মোঃ আবু সালেহ লিটন (৩৫) ও (২) মোঃ জামিল হোসেন (২৯)দ্বয়কে ১০ গ্রাম হেরোইন ও ২৫ পিচ ইয়াবা ট্যাবলেট সহ আটক করে, (৩) মোঃ শ্যামল (৩৩) কে ১২ গ্রাম হেরোইন সহ আটক করে। আটককৃত ব্যক্তিদের বিরুদ্ধে আইনগত ব্যবস্থা নেয়া হয়েছে।</td>														
+														<td> 19 October 2019  </td>
+														
+                                                        <td>
+														<button class="btn btn-primary btn-sm waves-effect waves-light" type="submit">Edit</button>
+                                                        <input class="btn btn-danger btn-sm waves-effect waves-light" type="reset" value="Delete">																
+														</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        
+        
+                                          
+        
+                                    </div>
+                                </div>
+								<!-- Pagination -->
+								<div class="content_center">
+									<nav aria-label="Page navigation example">
+                                    <ul class="pagination">
+                                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                    </ul>
+                                </nav>
+								</div>
+                            </div> <!-- end col -->
+							
+							
+						</div>
+					</div>
+					<!-- Home Content End -->
+
+                    
+				
+                    
+
+                    
+                </div>
+                <!-- container-fluid -->
+
+            </div>
+            <!-- content -->
+
+            <footer class="footer">
+                © 2019 Stexo <span class="d-none d-sm-inline-block"> - Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesdesign</span>.
+            </footer>
+
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Right content here -->
+        <!-- ============================================================== -->
+
+    </div>
+    <!-- END wrapper -->
+
+    <!-- jQuery  -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/metismenu.min.js"></script>
+    <script src="assets/js/jquery.slimscroll.js"></script>
+    <script src="assets/js/waves.min.js"></script>
+	<!-- Dropzone js -->
+    <script src="plugins/dropzone/dist/dropzone.js"></script>
+    <!--Morris Chart-->
+    <script src="plugins/morris/morris.min.js"></script>
+    <script src="plugins/raphael/raphael.min.js"></script>
+
+    <script src="assets/pages/dashboard.init.js"></script>
+	
+    <!-- App js -->
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+
+
+</html>

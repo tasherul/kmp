@@ -1,0 +1,452 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <title>Range Unit | KMP</title>
+    <meta content="Responsive admin theme build on top of Bootstrap 4" name="description" />
+    <meta content="Themesdesign" name="author" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico"/>
+
+    <!--Morris Chart CSS -->
+    <link rel="stylesheet" href="plugins/morris/morris.css"/>
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/metismenu.min.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/icons.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+
+</head>
+
+<body>
+
+    <!-- Begin page -->
+    <div id="wrapper">
+
+        <!-- Top Bar Start -->
+        <div class="topbar">
+
+            <!-- LOGO -->
+            <div class="topbar-left">
+                <a href="index.html" class="logo">
+                    <span class="logo-light">
+                            <i class="mdi mdi-account-circle"></i> Crime Management
+                        </span>
+                    <span class="logo-sm">
+                            <i class="mdi mdi-camera-control"></i>
+                        </span>
+                </a>
+            </div>
+
+            <nav class="navbar-custom">
+                <ul class="navbar-right list-inline float-right mb-0">
+
+                    <!-- full screen -->
+                    <li class="dropdown notification-list list-inline-item d-none d-md-inline-block">
+                        <a class="nav-link waves-effect" href="#" id="btn-fullscreen">
+                            <i class="mdi mdi-arrow-expand-all noti-icon"></i>
+                        </a>
+                    </li>
+
+                    
+
+                    <li class="dropdown notification-list list-inline-item">
+                        <div class="dropdown notification-list nav-pro-img">
+                            <a class="dropdown-toggle nav-link arrow-none nav-user" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                <img src="assets/images/users/user-4.jpg" alt="user" class="rounded-circle">
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+                                <!-- item-->
+                                <a class="dropdown-item" href="author.html"><i class="mdi mdi-account-circle"></i> Profile</a>
+                                
+                                <a class="dropdown-item text-danger" href="#"><i class="mdi mdi-power text-danger"></i> Logout</a>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <ul class="list-inline menu-left mb-0">
+                    <li class="float-left">
+                        <button class="button-menu-mobile open-left waves-effect">
+                            <i class="mdi mdi-menu"></i>
+                        </button>
+                    </li>
+                    
+                </ul>
+
+            </nav>
+
+        </div>
+        <!-- Top Bar End -->
+
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="left side-menu">
+            <div class="slimscroll-menu" id="remove-scroll">
+
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+                    <!-- Left Menu Start -->
+                    <ul class="metismenu" id="side-menu">
+                        
+                       <li class="menu-title">Menu</li>
+						<li>
+                            <a href="Dashboard.html" class="waves-effect">
+                                <i class="icon-accelerator"></i> <span> Dashboard </span>
+                            </a>
+                        </li>
+						<li>
+                            <a href="homepage.html" class="waves-effect"><i class="fas fa-home"></i><span> Home Page </span></a>
+                        </li>						
+						<li>
+                            <a href="slider.html" class="waves-effect"><i class="icon-graph"></i><span> Slider Area</span></a>
+                        </li>
+						
+						<li>
+                            <a href="news.html" class="waves-effect"><i class="fas fa-newspaper"></i><span> News</span></a>
+                        </li>
+						<li>
+                            <a href="notice.html" class="waves-effect"><i class="fas fa-bullhorn"></i><span> Notice </span></a>
+                        </li>				
+						<li>
+                            <a href="photo_gallery.html" class="waves-effect"><i class="far fa-images"></i><span> Photo Gallery </span></a>
+                        </li>
+						<li>
+                            <a href="video.html" class="waves-effect"><i class="fab fa-youtube"></i><span> Video Gallery </span></a>
+                        </li>
+						<li>
+                            <a href="wanted_missing.html" class="waves-effect"><i class="fas fa-users"></i><span> Wanted & Missing </span></a>
+                        </li>
+						<li>
+                            <a href="staff.html" class="waves-effect"><i class="fas fa-user-tag"></i><span> Staff </span></a>
+                        </li>
+						<li>
+                            <a href="range_unit.html" class="waves-effect"><i class="fas fa-exchange-alt"></i><span> Range Unit </span></a>
+                        </li>
+						<li>
+                            <a href="settings.html" class="waves-effect"><i class="fas fa-sliders-h"></i><span> Settings-1 </span></a>
+                        </li>
+						<li>
+                            <a href="settings-2.html" class="waves-effect"><i class="fas fa-sliders-h"></i><span> Settings-2 </span></a>
+                        </li>
+						<li>
+                            <a href="service.html" class="waves-effect"><i class="fas fa-check-square"></i><span> Service-1 </span></a>
+                        </li>
+						<li>
+                            <a href="service_2.html" class="waves-effect"><i class="fas fa-check-square"></i><span> Service-2 </span></a>
+                        </li>
+						<li>
+                            <a href="remember.html" class="waves-effect"><i class="fas fa-user"></i><span> Remember </span></a>
+                        </li>
+						<li>
+                            <a href="crime_management.html" class="waves-effect"><i class="fas fa-user-secret"></i><span>Crime Management</span></a>
+                        </li>
+						<li>
+                            <a href="contact.html" class="waves-effect"><i class="far fa-address-book"></i><span>Contact</span></a>
+                        </li>
+						<li>
+                            <a href="carrer.html" class="waves-effect"><i class="icon-graph"></i><span>Carrer</span></a>
+                        </li>
+						<li>
+                            <a href="ranks_acknowledge.html" class="waves-effect"><i class="icon-graph"></i><span>Ranks & Acknowledgement</span></a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Sidebar -->
+                <div class="clearfix"></div>
+
+            </div>
+            <!-- Sidebar -left -->
+
+        </div>
+        <!-- Left Sidebar End -->
+
+  
+     <div class="content-page">
+                <!-- Start content -->
+                <div class="content">
+                    <div class="container-fluid">
+                        <div class="page-title-box">
+                            <div class="row align-items-center">
+                                <div class="col-sm-6">
+                                    <h4 class="page-title">Crime Management</h4>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ol class="breadcrumb float-right">
+                                        <li class="breadcrumb-item"><a href="javascript:void(0);">KMP</a></li>
+                                        <li class="breadcrumb-item active">Crime Management</li>
+                                    </ol>
+                                </div>
+                            </div> <!-- end row -->
+                        </div>
+                        <!-- end page-title -->
+
+                      <div class="row">
+                            <div class="col-lg-12">
+                                <div class="card m-b-30">
+                                    <div class="card-body">
+        
+                                        <h4 class="mt-0 header-title">Upload monthly crime report </h4>
+                                        <p class="sub-title">From here upload monthly crime report in specific range units.</p>
+        
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="p-20">
+                                                    <form action="#">
+                                                        <div class="form-group">
+                                                           <label>Select Range</label>												
+															<select class="form-control">
+																<option>Select Range</option>
+																<option>Khulna Sadar</option>
+																<option>Sonadangha</option>	
+																<option>Khalishpur</option>	
+																<option>Daulatpur</option>	
+																<option>Khanjahan Ali</option>	
+																<option>Labanchora</option>	
+																<option>Horintana</option>			
+																<option>Aranghata</option>													
+															</select>                                                           
+                                                        </div>
+														
+                                                        <div class="form-group">
+                                                            <label>Speedy Trail</label>
+                                                            <input type="text" placeholder="Type something.." class="form-control">
+                                                            
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Dacoity</label>
+                                                            <input type="text" placeholder="Type something.." class="form-control">                                                            
+                                                        </div>														
+                                                        <div class="form-group">
+                                                            <label>Robbery</label>
+                                                            <input type="text" placeholder="Type something.." class="form-control">
+                                                        </div>
+                                                        <div class="form-group m-b-0">
+                                                            <label>Murder</label>
+                                                            <input type="text" placeholder="Type something.." class="form-control">
+                                                        </div>
+        
+                                                    </form>
+                                                </div>
+                                            </div>
+        
+                                            <div class="col-lg-6">
+                                                <div class="p-20">
+                                                    <form action="#">
+														<div class="form-group">
+                                                            <label>Month</label>
+                                                            <select class="form-control">
+																<option>Select Month</option>
+																<option>January</option>
+																<option>February</option>	
+																<option>March</option>	
+																<option>April</option>	
+																<option>May</option>	
+																<option>June</option>	
+																<option>July</option>			
+																<option>Augest</option>													
+															</select>
+                                                        </div>
+                                                        
+                                                        <div class="form-group">
+                                                            <label>Riot</label>
+                                                            <input type="text" placeholder="Type something.." class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Women Repression</label>
+                                                            <input type="text" placeholder="Type something.." class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Child Repression</label>
+                                                            <input type="text" placeholder="Type something.." class="form-control">
+                                                        </div>
+                                                        <div class="form-group m-b-0">
+                                                            <label>Kidnapping</label>
+                                                            <input type="text" placeholder="Type something.." class="form-control">
+                                                        </div>
+        
+                                                    </form>
+                                                </div>
+                                            </div> <!-- end col -->
+											<div class="col-lg-6">
+                                                <div class="p-20">
+                                                    <form action="#">
+        
+                                                        <div class="form-group">
+                                                            <label>Police Assault</label>
+                                                            <input type="text" placeholder="Type something.." class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Burglary</label>
+                                                            <input type="text" placeholder="Type something.." class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Theft</label>
+                                                            <input type="text" placeholder="Type something.." class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Others Cases</label>
+                                                            <input type="text" placeholder="Type something.." class="form-control">
+                                                        </div>
+                                                        <div class="form-group m-b-0">
+                                                            <label>Total Cases</label>
+                                                            <input type="text" placeholder="Type something.." class="form-control">
+                                                        </div>
+        
+                                                    </form>
+                                                </div>
+                                            </div> <!-- end col -->
+											<div class="col-lg-6">
+                                                <div class="p-20">
+                                                    <form action="#">
+														<label>Recovery Cases:(Arms Act, Explosive, Narcotics, Smuggling)</label>
+														<div class="form-group m-b-0">
+                                                            <label>Arms Act</label>
+                                                            <input type="text" placeholder="Type something.." class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Explosive</label>
+                                                            <input type="text" placeholder="Type something.." class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Narcotics</label>
+                                                            <input type="text" placeholder="Type something.." class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Smuggling</label>
+                                                            <input type="text" placeholder="Type something.." class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Total</label>
+                                                            <input type="text" placeholder="Type something.." class="form-control">
+                                                        </div>
+                                                        
+        
+                                                    </form>
+                                                </div>
+                                            </div> <!-- end col -->
+											<div class="col-lg-12">
+												<div class="form-group content_center">
+                                                <div>
+                                                    <button type="submit" class="btn btn-primary waves-effect waves-light">
+                                                        Submit
+                                                    </button>
+                                                    <button type="reset" class="btn btn-secondary waves-effect m-l-5">
+                                                        Cancel
+                                                    </button>
+                                                </div>
+                                            </div>
+											</div>
+											
+											
+                                        </div> <!-- end row -->
+        
+                                    </div>
+                                </div>
+                            </div> <!-- end col -->
+							<div class="col-lg-12">
+                                <div class="card m-b-30">
+                                    <div class="card-body">
+        
+                                         <h4 class="mt-0 header-title">Basic example</h4>
+                                        <p class="sub-title">
+										From here you can edit and delete remember person.
+                                        </p>
+        
+                                        <div class="table-responsive">
+                                            <table class="table mb-0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>#</th>
+                                                        <th>Crime Statistics</th>
+                                                        <th>Action</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td class="text_property">July/2019 </td>
+                                                        <td>
+														<button class="btn btn-primary" type="submit">Edit</button>
+                                                        <input class="btn btn-danger" type="reset" value="Delete">												
+														</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">2</th>
+                                                        <td class="text_property">July/2019 </td>
+                                                        <td>
+														<button class="btn btn-primary" type="submit">Edit</button>
+                                                        <input class="btn btn-danger" type="reset" value="Delete">												
+														</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">3</th>
+                                                        <td class="text_property">July/2019 </td>
+                                                        <td>
+														<button class="btn btn-primary" type="submit">Edit</button>
+                                                        <input class="btn btn-danger" type="reset" value="Delete">												
+														</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        
+        
+                                          
+        
+                                    </div>
+                                </div>
+								<!-- Pagination -->
+								<div class="content_center">
+									<nav aria-label="Page navigation example">
+                                    <ul class="pagination">
+                                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                    </ul>
+                                </nav>
+								</div>
+                            </div> <!-- end col -->
+                        </div> <!-- end row --> 
+        
+                            
+                        
+                    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+    </div>
+    <!-- END wrapper -->
+
+    <!-- jQuery  -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/metismenu.min.js"></script>
+    <script src="assets/js/jquery.slimscroll.js"></script>
+    <script src="assets/js/waves.min.js"></script>
+
+    <!--Morris Chart-->
+    <script src="plugins/morris/morris.min.js"></script>
+    <script src="plugins/raphael/raphael.min.js"></script>
+
+    <script src="assets/pages/dashboard.init.js"></script>
+
+    <!-- App js -->
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,1 @@
+[25-Feb-2020 14:48:31 America/Chicago] PHP Fatal error:  Call to a member function define() on null in /home/wwwkmppolicegov/public_html/database/factories/UserFactory.php on line 19
